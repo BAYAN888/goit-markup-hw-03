@@ -41,6 +41,28 @@ h2 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+
+.header {
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.adress-link-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-container {
+  display: flex;
+}
+
+.navigation-menu {
+  display: flex;
+  flex-grow: 1;
+}
 /*------------SECTION----------*/
 .section {
   color: #fff;
@@ -129,6 +151,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: flex;
+  margin-left: 156px;
+  margin-top: 25.5px;
+  margin-bottom: 25.5px;
 }
 
 a {
