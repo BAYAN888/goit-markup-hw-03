@@ -8,9 +8,10 @@ button {
   color: white;
   cursor: pointer;
   display: block;
-  max-width: 169px;
+  min-width: 169px;
   height: 59px;
   border-radius: 4px;
+  border: none;
 }
 
 .button:hover,
@@ -84,6 +85,25 @@ h2 {
   max-width: 496px;
 }
 
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+.section-first {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.first-list {
+  display: flex;
+  gap: 24px;
+}
+
+.li-list {
+  width: calc((100% - 3 * 24) / 4);
+}
+
 .section-fture {
   color: #2e2f42;
   text-align: center;
@@ -92,6 +112,7 @@ h2 {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 8px;
 }
 
 p {
