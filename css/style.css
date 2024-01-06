@@ -37,6 +37,10 @@ h3 {
   letter-spacing: 0.02em;
 }
 
+.portfolio {
+  margin-bottom: 72px;
+}
+
 h2 {
   color: #2e2f42;
   text-align: center;
@@ -120,6 +124,7 @@ p {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .paragraph-fture {
@@ -151,10 +156,6 @@ p {
   padding-bottom: 120px;
 }
 
-.portfolio {
-  margin-bottom: 72px;
-}
-
 .gadget-list {
   display: flex;
   flex-wrap: wrap;
@@ -163,7 +164,7 @@ p {
 }
 
 .li-gadget {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .gadget-text {
@@ -195,10 +196,9 @@ p {
   gap: 24px;
 }
 
-.mark,
-.camila {
+.mark {
   border-radius: 0px 0px 4px 4px;
-  width: calc ((100% - 3 * 24) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .container-team {
@@ -289,6 +289,8 @@ ul {
 /*--------------------------*/
 .footer {
   background: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .logo-fter {
@@ -322,15 +324,10 @@ ul {
   max-width: 264px;
 }
 
-.footer-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
 /*---------img------*/
 
 .img-name {
   color: #2e2f42;
-  text-align: center;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -341,6 +338,7 @@ ul {
 
 .img-paragraph {
   color: #434455;
+  text-align: center;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
