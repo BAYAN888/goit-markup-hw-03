@@ -102,10 +102,7 @@ h2 {
 .first-list {
   display: flex;
   gap: 24px;
-  width calc((100% - 3 * 24px) / 4);
-}
-
-.li-list {
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .section-fture {
@@ -164,14 +161,18 @@ p {
 }
 
 .li-gadget {
-   width: calc((100% - 48px) / 3)
+  width: calc((100% - 48px) / 3);
 }
 
 .gadget-text {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
-  padding: 32px 16px
+  padding: 32px 16px;
+}
+
+.portfolio-name {
+  margin-bottom: 8px;
 }
 
 .team {
@@ -347,6 +348,7 @@ ul {
 }
 .mark {
   background-color: #ffffff;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .img-team {
