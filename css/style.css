@@ -93,8 +93,16 @@ h2 {
 }
 
 .visually-hidden {
-  position: fixed;
-  transform: scale(0);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .section-first {
@@ -198,14 +206,14 @@ p {
   margin-bottom: 72px;
 }
 
+.mark {
+  background-color: #ffffff;
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
 .team-list {
   display: flex;
   gap: 24px;
-}
-
-.mark {
-  border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 72px) / 4);
 }
 
 .container-team {
@@ -351,10 +359,6 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-}
-.mark {
-  background-color: #ffffff;
-  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .img-team {
