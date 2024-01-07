@@ -120,7 +120,6 @@ h2 {
 }
 
 .container-feature {
-  display: flex;
 }
 
 .section-fture {
@@ -172,7 +171,6 @@ p {
 }
 
 .gadget-container {
-  display: flex;
 }
 
 .gadget-list {
@@ -221,7 +219,6 @@ p {
 }
 
 .container-mark {
-  display: flex;
 }
 
 .team-list {
