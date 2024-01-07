@@ -108,6 +108,7 @@ h2 {
 }
 
 .li-list {
+  width: calc((100% - 72px) / 4);
 }
 
 .section-fture {
@@ -200,11 +201,11 @@ p {
 .team-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 3 * 24px) / 4);
 }
 
 .mark {
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .container-team {
