@@ -20,6 +20,12 @@ button {
   background: #404bbf;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 h1 {
   color: #fff;
   text-align: center;
@@ -36,6 +42,8 @@ h3 {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin: 0;
+  padding: 0;
 }
 
 .portfolio {
@@ -68,6 +76,9 @@ h2 {
 
 .header-container {
   display: flex;
+}
+
+.container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
@@ -139,6 +150,8 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .paragraph-fture {
@@ -147,6 +160,7 @@ p {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: left;
 }
 
 .section-fture-name {
@@ -170,14 +184,14 @@ p {
   padding-bottom: 120px;
 }
 
-.gadget-container {
-}
-
 .gadget-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+}
+
+.gadget-list {
 }
 
 .li-gadget {
@@ -264,10 +278,6 @@ a {
   text-decoration: none;
 }
 
-ul {
-  list-style: none;
-}
-
 /*----------LINK--------*/
 
 .link {
@@ -318,6 +328,12 @@ ul {
   padding-bottom: 100px;
 }
 
+.cntainer-footer {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .logo-fter {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -347,6 +363,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+  text-align: left;
 }
 
 /*---------img------*/
